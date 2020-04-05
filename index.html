@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Tim Ass 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <form action="submission.html" method="POST">
+        <label for="movie">Search for a movie:</label>
+        <input type="text" name="movie" id="movie" />
+        <hr />
+      </form>
+    </div>
+    <button onClick="getData()">Search</button>
+    <h1 id="title"></h1>
+    <img id="movieImage" />
+    <p id="plot"></p>
+    <script src="timAss2.js"></script>
+  </body>
+</html>
